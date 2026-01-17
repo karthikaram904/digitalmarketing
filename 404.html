@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404 - Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background:#FFAA17;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .error-wrapper {
+      background: #ffffff;
+      color: #333;
+      max-width: 600px;
+      width: 100%;
+      padding: 60px 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+    }
+
+    .error-code {
+      font-size: 120px;
+      font-weight: 700;
+      color: #FFAA17;
+      line-height: 1;
+    }
+
+    .error-title {
+      font-size: 28px;
+      font-weight: 600;
+      margin: 20px 0 10px;
+    }
+
+    .error-text {
+      font-size: 15px;
+      color: #666;
+      margin-bottom: 30px;
+      line-height: 1.7;
+    }
+
+    .error-actions {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #FFAA17;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: #FFAA17;
+    }
+
+    .btn-outline {
+      border: 2px solid #FFAA17;
+      color: #FFAA17;
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: #FFAA17;
+      color: #fff;
+    }
+    .navbar-brand.text-secondary img {
+          width: 200px;
+    }
+
+    @media (max-width: 576px) {
+      .error-code {
+        font-size: 90px;
+      }
+      .error-wrapper {
+        padding: 40px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="error-wrapper">
+    <a href="index.html" class="navbar-brand text-secondary">
+                <img src="img/digitalmarkting1.png" class="site-logo">
+            </a>
+    <div class="error-code">404</div>
+    <h1 class="error-title">Page Not Found</h1>
+    <p class="error-text">
+      Oops! The page you are looking for doesn’t exist, may have been removed,
+      or the URL might be incorrect.
+    </p>
+
+    <div class="error-actions">
+      <a href="index.html" class="btn btn-primary">Back to Home</a>
+      <a href="contact.html" class="btn btn-outline">Contact Support</a>
+    </div>
+  </div>
+
+</body>
+</html>

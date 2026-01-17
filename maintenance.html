@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Site Under Maintenance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #FFAA17, #FFAA17);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .maintenance-wrapper {
+      background: #ffffff;
+      color: #333;
+      max-width: 650px;
+      width: 100%;
+      padding: 60px 40px;
+      border-radius: 22px;
+      text-align: center;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.18);
+    }
+
+    .maintenance-icon {
+      font-size: 70px;
+      color: #FFAA17;
+      margin-bottom: 20px;
+    }
+
+    .maintenance-title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .maintenance-text {
+      font-size: 15px;
+      color: #666;
+      line-height: 1.8;
+      margin-bottom: 35px;
+    }
+
+    .maintenance-info {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .info-box {
+      background: #f8f9fa;
+      padding: 15px 25px;
+      border-radius: 14px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .maintenance-actions {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: 0.3s;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #FFAA17;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      background: #FFAA17;
+    }
+
+    .btn-outline {
+      border: 2px solid #FFAA17;
+      color: #FFAA17;
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: #FFAA17;
+      color: #fff;
+    }
+
+    @media (max-width: 576px) {
+      .maintenance-wrapper {
+        padding: 45px 25px;
+      }
+
+      .maintenance-title {
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="maintenance-wrapper">
+    <div class="maintenance-icon">🛠️</div>
+
+    <h1 class="maintenance-title">We’ll Be Back Soon</h1>
+
+    <p class="maintenance-text">
+      Our website is currently undergoing scheduled maintenance.
+      We are working hard to improve your experience and will be back shortly.
+      Thank you for your patience.
+    </p>
+
+    <div class="maintenance-info">
+      <div class="info-box">⏳ Estimated Time: Soon</div>
+      <div class="info-box">📧 support@example.com</div>
+    </div>
+
+    <div class="maintenance-actions">
+      <a href="index.html" class="btn btn-primary">Go to Homepage</a>
+      <a href="contact.html" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+
+</body>
+</html>
