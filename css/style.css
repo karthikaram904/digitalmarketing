@@ -11374,3 +11374,15 @@ body.dark .theme-btn {
 .dark .site-logo {
   filter: brightness(0) invert(1);
 }
+.dark .service-item {
+ background: #000;
+}
+.dark .price-plan .rounded.text-center {
+  background: #000 !important;
+}
+.dark .price-plan .rounded.text-center h2,.dark .service-item h4,.dark .service-card h5,.dark .team-box h4,.dark .client-info h5 {
+  color: #fff;
+}
+.dark .contact-form.bg-white.rounded.p-5,.dark .service-card,.dark .pricing-card,.dark .team-box,.dark .testimonial-card,.dark .contact-form-v2 {
+  background: #000 !important;
+}
