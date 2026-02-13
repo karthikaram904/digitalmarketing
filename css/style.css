@@ -11368,7 +11368,7 @@ body.dark .theme-btn {
   position: fixed !important;
   z-index: 999;
 }
-.dark .navbar h6,.dark .navbar small {
+.dark .navbar h6,.dark .navbar small,.dark .plan-features li,.dark .plan-features a {
   color: #fff;
 }
 .dark .site-logo {
@@ -11391,4 +11391,8 @@ body.dark .theme-btn {
 }
 .dark .contact-sec .col-lg-4.mb-2 .bg-light {
   background: #000 !important;
+}
+.dark .hero-2.bg-light.py-5 a {
+  color: #fff;
+  border: 1px solid #ddd;
 }
