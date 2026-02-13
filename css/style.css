@@ -11368,3 +11368,6 @@ body.dark .theme-btn {
   position: fixed !important;
   z-index: 999;
 }
+.dark .navbar h6,.dark .navbar small {
+  color: #fff;
+}
