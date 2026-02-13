@@ -11364,3 +11364,6 @@ body.dark .theme-btn {
 .dark .navbar.navbar-expand-lg.bg-white.navbar-light.py-3.py-lg-0,.dark .container-fluid.bg-white.position-relative {
   background: #000 !important;
 }
+.dark .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
