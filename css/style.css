@@ -11371,3 +11371,6 @@ body.dark .theme-btn {
 .dark .navbar h6,.dark .navbar small {
   color: #fff;
 }
+.dark .site-logo {
+  filter: brightness(0) invert(1);
+}
