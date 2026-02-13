@@ -11386,6 +11386,9 @@ body.dark .theme-btn {
 .dark .contact-form.bg-white.rounded.p-5,.dark .service-card,.dark .pricing-card,.dark .team-box,.dark .testimonial-card,.dark .contact-form-v2,.dark .pd-info-card,.dark .process-box,.dark .result-box,.dark .blog-content-wrapper,.dark .sidebar-widget {
   background: #000 !important;
 }
-.dark .blog-heading.text-center h1,.dark .sidebar-widget h4,.dark .sidebar-widget a {
+.dark .blog-heading.text-center h1,.dark .sidebar-widget h4,.dark .sidebar-widget a,.dark .contact-sec .col-lg-4.mb-2 .bg-light h5,.dark .contact-sec .col-lg-4.mb-2 .bg-light p {
   color: #fff;
+}
+.dark .contact-sec .col-lg-4.mb-2 .bg-light {
+  background: #000 !important;
 }
