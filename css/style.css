@@ -11361,3 +11361,6 @@ body.dark .theme-btn {
 .dark .navbar-nav.ml-auto.py-0.pr-3.border-right {
   margin-right: 0px !important;
 }
+.dark .navbar.navbar-expand-lg.bg-white.navbar-light.py-3.py-lg-0,.dark .container-fluid.bg-white.position-relative {
+  background: #000 !important;
+}
