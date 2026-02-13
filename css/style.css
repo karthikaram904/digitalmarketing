@@ -11352,3 +11352,6 @@ body.dark .theme-btn {
   position: fixed !important;
   z-index: 999;
 }
+.dark .navbar-nav.ml-auto.py-0.pr-3.border-right {
+  margin-right: 0px !important;
+}
