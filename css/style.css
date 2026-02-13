@@ -11340,7 +11340,7 @@ body.dark .theme-btn {
 .dark .price-plan p,.dark .team-item p,.dark .service-content ul li,.dark .blog-content2 li {
   color: #888;
 }
-.dark .plan-features li,.dark .contact-sec p,.dark .plan-price,.dark .pd-info-card li,.dark .blog-title {
+.dark .plan-features li,.dark .contact-sec p,.dark .plan-price,.dark .pd-info-card li {
   color: #000;
 }
 .dark .ml-auto,.dark .mx-auto {
@@ -11380,9 +11380,12 @@ body.dark .theme-btn {
 .dark .price-plan .rounded.text-center {
   background: #000 !important;
 }
-.dark .price-plan .rounded.text-center h2,.dark .service-item h4,.dark .service-card h5,.dark .team-box h4,.dark .client-info h5 {
+.dark .price-plan .rounded.text-center h2,.dark .service-item h4,.dark .service-card h5,.dark .team-box h4,.dark .client-info h5,.dark .pd-info-card h5,.dark .pd-info-card li,.dark .process-box h6 {
   color: #fff;
 }
-.dark .contact-form.bg-white.rounded.p-5,.dark .service-card,.dark .pricing-card,.dark .team-box,.dark .testimonial-card,.dark .contact-form-v2 {
+.dark .contact-form.bg-white.rounded.p-5,.dark .service-card,.dark .pricing-card,.dark .team-box,.dark .testimonial-card,.dark .contact-form-v2,.dark .pd-info-card,.dark .process-box,.dark .result-box,.dark .blog-content-wrapper,.dark .sidebar-widget {
   background: #000 !important;
+}
+.dark .blog-heading.text-center h1,.dark .sidebar-widget h4,.dark .sidebar-widget a {
+  color: #fff;
 }
