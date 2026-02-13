@@ -11348,3 +11348,7 @@ body.dark .theme-btn {
 {
   padding: 0px;
 }
+.container-fluid.bg-white.position-relative {
+  position: fixed !important;
+  z-index: 999;
+}
