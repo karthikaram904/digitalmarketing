@@ -11364,3 +11364,7 @@ body.dark .theme-btn {
 .dark .navbar-light .navbar-nav .nav-link {
   color: #fff;
 }
+.container-fluid.bg-white.position-relative {
+  position: fixed !important;
+  z-index: 999;
+}
