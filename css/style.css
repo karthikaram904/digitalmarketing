@@ -9806,7 +9806,7 @@ h6,
   transition: .5s;
 }
 
-.service-item:hover h4 {
+.service-item:hover h4,.service-item:hover p {
   color: #F4F5F8;
 }
 
