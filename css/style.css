@@ -323,6 +323,9 @@ legend {
   .navbar .site-logo {
   width: 140px;
 }
+  .service-item {
+  height: 420px;
+}
 }
 
 progress {
